@@ -1,5 +1,5 @@
 {
-  "name": "favicons",
+  "name": "favicons-lib",
   "version": "8.0.0",
   "description": "Favicon generator for Node.js",
   "type": "module",
