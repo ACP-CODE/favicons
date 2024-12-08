@@ -177,7 +177,7 @@ import { config } from "favicons-lib";
 Below you will find a simple working example to generate an output. Amend the `src`, `dest`, `htmlBasename` and `configuration` constants to suit your own needs.
 
 ```js
-import favicons from "favicons";
+import favicons from "favicons-lib";
 import fs from "fs/promises";
 import path from "path";
 
