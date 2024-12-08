@@ -29,7 +29,7 @@
     "test-import": "node ./test-packages/test-mjs/index.js",
     "test-require": "node ./test-packages/test-cjs/index.js",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "test-all": "npm test && npm run test-import && npm run test-require",
+    "test-all": "npm test -- -u && npm run test-import && npm run test-require",
     "clean": "rimraf dist/",
     "prebuild": "npm run clean",
     "build": "unbuild",
